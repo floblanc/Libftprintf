@@ -6,7 +6,7 @@
 #    By: floblanc <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/12 10:09:35 by floblanc          #+#    #+#              #
-#    Updated: 2018/12/14 14:50:54 by floblanc         ###   ########.fr        #
+#    Updated: 2019/01/28 15:29:26 by floblanc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,6 +33,7 @@ SRCS = ft_memset.c\
 	   ft_strcmp.c\
 	   ft_strncmp.c\
 	   ft_atoi.c\
+	   ft_atol.c\
 	   ft_isalpha.c\
 	   ft_isdigit.c\
 	   ft_isalnum.c\
@@ -72,12 +73,12 @@ SRCS = ft_memset.c\
 	   ft_lstmap.c\
 	   ft_tabdel.c\
 	   ft_puttab.c\
-	   ft_tab3size.c\
-	   ft_putnbr_base.c
+	   ft_strsearch.c\
+	   ft_tab3size.c
 
 OBJS = $(SRCS:.c=.o)
 
-FLGS = -Wall -Werror -Wextra -g3
+FLGS = -Wall -Werror -Wextra
 
 INC = libft.h
 

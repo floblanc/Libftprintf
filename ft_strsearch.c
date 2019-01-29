@@ -1,32 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_strsearch.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/14 14:54:29 by floblanc          #+#    #+#             */
-/*   Updated: 2018/12/14 15:38:02 by maginist         ###   ########.fr       */
+/*   Created: 2018/12/17 17:54:44 by floblanc          #+#    #+#             */
+/*   Updated: 2018/12/17 17:57:36 by floblanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-void	ft_putnbr(int n)
+int	ft_strsearch(char *src, char c)
 {
-	unsigned int	nb;
+	int	i;
 
-	nb = n;
-	if (n < 0)
+	i = 0;
+	while (src[i])
 	{
-		write(1, "-", 1);
-		nb = -n;
+		if (src[i] == c)
+			return (1);
+		i++;
 	}
-	if (nb < 10)
-		ft_putchar(nb + '0');
-	else
-	{
-		ft_putnbr((nb / 10));
-		ft_putchar((nb % 10) + '0');
-	}
+	return (0);
 }

@@ -1,32 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/14 14:54:29 by floblanc          #+#    #+#             */
-/*   Updated: 2018/12/14 15:38:02 by maginist         ###   ########.fr       */
+/*   Created: 2018/11/07 16:44:59 by floblanc          #+#    #+#             */
+/*   Updated: 2019/01/28 15:27:52 by floblanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr(int n)
+long	ft_atol(const char *str)
 {
-	unsigned int	nb;
+	long int	i;
+	long int	res;
+	long int	neg;
 
-	nb = n;
-	if (n < 0)
+	i = 0;
+	res = 0;
+	neg = 1;
+	while (str[i] == '\n' || str[i] == '\t' || str[i] == '\r' || str[i] == '\v'
+			|| str[i] == '\f' || str[i] == ' ')
+		i++;
+	if (str[i] == '+')
+		i++;
+	else if (str[i] == '-')
 	{
-		write(1, "-", 1);
-		nb = -n;
+		neg = -1;
+		i++;
 	}
-	if (nb < 10)
-		ft_putchar(nb + '0');
-	else
-	{
-		ft_putnbr((nb / 10));
-		ft_putchar((nb % 10) + '0');
-	}
+	while (str[i] >= '0' && str[i] <= '9')
+		res = (res * 10) + ((str[i++] - '0') * neg);
+	return (res);
 }

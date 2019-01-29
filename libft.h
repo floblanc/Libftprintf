@@ -6,7 +6,7 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 13:21:30 by floblanc          #+#    #+#             */
-/*   Updated: 2018/12/14 14:56:13 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/01/28 15:28:47 by floblanc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ char				*ft_strnstr(const char *haystack, const char *needle,
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 int					ft_atoi(const char *str);
+long				ft_atol(const char *str);
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
 int					ft_isalnum(int c);
@@ -84,6 +85,6 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				ft_tabdel(char **tab);
 void				ft_puttab(char **tab);
 size_t				ft_tab3size(void ***tab);
-void				ft_putnbr_base(int n, char *base);
+int					ft_strsearch(char *src, char c);
 
 #endif
