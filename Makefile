@@ -6,7 +6,7 @@
 #    By: floblanc <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/12 10:09:35 by floblanc          #+#    #+#              #
-#    Updated: 2019/01/28 15:29:26 by floblanc         ###   ########.fr        #
+#    Updated: 2019/02/13 16:20:11 by floblanc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,18 +74,22 @@ SRCS = ft_memset.c\
 	   ft_tabdel.c\
 	   ft_puttab.c\
 	   ft_strsearch.c\
-	   ft_tab3size.c
+	   ft_tab3size.c\
+	   ft_abs.c\
+	   get_next_line.c
 
 OBJS = $(SRCS:.c=.o)
 
-FLGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra
 
 INC = libft.h
+
+CC = gcc
 
 all : $(NAME)
 
 $(NAME) : $(INC) $(OBJS) $(SRCS)
-	gcc $(FLGS) -c $(SRCS) -I$(INC)
+	$(CC) $(CFLAGS) -c $(SRCS) -I$(INC)
 	ar rcs $(NAME) $(OBJS)
 
 clean :
