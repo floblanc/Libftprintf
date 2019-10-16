@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 14:39:24 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 16:24:47 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:46:09 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

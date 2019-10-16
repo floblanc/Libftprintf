@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 11:56:37 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 12:05:01 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:51:21 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_strequ(char const *s1, char const *s2)
 {

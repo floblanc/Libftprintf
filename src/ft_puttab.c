@@ -6,11 +6,11 @@
 /*   By: maginist <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/30 13:36:48 by maginist          #+#    #+#             */
-/*   Updated: 2018/12/07 10:26:04 by maginist         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:48:42 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_puttab(char **tab)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 11:18:08 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 11:43:35 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:50:29 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_strclr(char *s)
 {

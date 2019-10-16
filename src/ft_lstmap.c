@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 17:56:52 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/15 12:34:08 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:42:57 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 t_list	*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 {

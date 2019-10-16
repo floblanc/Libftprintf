@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 10:21:10 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 13:34:55 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:43:23 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	*ft_memalloc(size_t size)
 {

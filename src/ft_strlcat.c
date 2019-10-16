@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 12:17:23 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 14:27:28 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:52:09 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {

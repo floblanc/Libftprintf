@@ -6,9 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/17 17:54:44 by floblanc          #+#    #+#             */
-/*   Updated: 2018/12/17 17:57:36 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:54:26 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../include/libprintf.h"
 
 int	ft_strsearch(char *src, char c)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 14:25:34 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/07 16:47:19 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:41:02 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_bzero(void *s, size_t n)
 {

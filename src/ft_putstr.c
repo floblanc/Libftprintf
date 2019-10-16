@@ -6,11 +6,11 @@
 /*   By: maginist <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/14 14:13:16 by maginist          #+#    #+#             */
-/*   Updated: 2019/01/15 15:00:13 by maginist         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:48:14 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_putstr(char const *s)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 10:09:50 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 10:15:38 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:55:52 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_toupper(int c)
 {

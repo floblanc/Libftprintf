@@ -6,11 +6,11 @@
 /*   By: maginist <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 13:57:59 by maginist          #+#    #+#             */
-/*   Updated: 2019/02/28 13:58:07 by maginist         ###   ########.fr       */
+/*   Updated: 2019/04/04 12:03:29 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	sort_int_tab(int *tab, unsigned int size)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 12:22:35 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/22 10:35:23 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:51:55 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

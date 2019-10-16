@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 11:43:52 by floblanc          #+#    #+#             */
-/*   Updated: 2019/03/27 10:10:16 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:53:20 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 char	*ft_strndup(const char *s, size_t n)
 {

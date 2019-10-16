@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 11:41:45 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/12 11:41:58 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:43:46 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

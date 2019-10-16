@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 11:32:22 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 13:26:43 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:52:29 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 char	*ft_strmap(char const *s, char (*f)(char))
 {

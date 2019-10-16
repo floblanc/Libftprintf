@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 11:44:45 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/12 11:44:57 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:43:56 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_memcmp(const void *s1, const void *s2, size_t n)
 {

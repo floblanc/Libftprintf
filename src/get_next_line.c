@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/19 10:28:23 by floblanc          #+#    #+#             */
-/*   Updated: 2019/02/13 16:22:19 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 12:01:43 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_str_not_empty(char **str, char **line)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 16:20:15 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 16:24:15 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:48:03 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

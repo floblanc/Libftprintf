@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 10:05:57 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 10:10:13 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:41:52 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_isprint(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 10:32:20 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 10:43:55 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:44:19 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	ft_memdel(void **ap)
 {

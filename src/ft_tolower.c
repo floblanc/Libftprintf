@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 10:16:13 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 10:18:07 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:55:41 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 int		ft_tolower(int c)
 {

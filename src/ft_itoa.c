@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 11:37:56 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/14 15:19:18 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:42:01 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 static int	ft_size(int n)
 {

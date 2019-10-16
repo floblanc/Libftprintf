@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/13 12:42:26 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/13 14:47:56 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:55:05 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 char	*ft_strtrim(char const *s)
 {

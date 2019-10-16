@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 16:41:04 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/19 10:20:55 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:43:12 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {

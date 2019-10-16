@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 17:19:27 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/12 11:45:34 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:44:30 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

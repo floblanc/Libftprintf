@@ -6,11 +6,11 @@
 /*   By: floblanc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 14:50:35 by floblanc          #+#    #+#             */
-/*   Updated: 2018/11/12 09:58:40 by floblanc         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:44:08 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

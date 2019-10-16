@@ -6,11 +6,11 @@
 /*   By: maginist <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/14 10:11:43 by maginist          #+#    #+#             */
-/*   Updated: 2018/11/14 10:35:07 by maginist         ###   ########.fr       */
+/*   Updated: 2019/04/04 11:54:07 by maginist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../include/libprintf.h"
 
 char	*ft_strrev(char *str)
 {
